@@ -5,34 +5,33 @@ const testimonials = [
   {
     id: 1,
     logo: "/images/logo/Plogo-28.png",
-    rating: 5,
+    rating: 10,
     feedback:
-      "Certainly from my perspective quis been a great success with due WP giving us that enterprises level assured quality.",
+      "I've been using this trading algorithm for several months now, and I'm extremely impressed with the results. ",
     cost: 15.0,
   },
   {
     id: 2,
     logo: "/images/logo/Plogo-29.png",
-    rating: 5,
+    rating: 8,
     feedback:
-      "They not only understand what I say but read between the lines and also give me ideas of my own.",
+      "I've tried several trading algorithms in the past, but none have matched the performance and reliability of this one. ",
     cost: 15.0,
   },
   {
     id: 3,
     logo: "/images/logo/Plogo-30.png",
-    rating: 5,
+    rating: 9,
     feedback:
-      "Certainly from my perspective quis been a great success with due WP giving us that enterprises level assured quality.",
+      "I'm amazed by the precision of this trading algorithm.",
     cost: 15.0,
   },
   {
     id: 4,
     logo: "/images/logo/Plogo-29.png",
-    rating: 5,
+    rating: 7,
     feedback:
-      "They not only understand what I say but read between the lines and also give me ideas of my own.",
-    cost: 18.0,
+      "I can confidently say that this trading algorithm is superior to others I've used. "
   },
 ];
 

@@ -1,10 +1,10 @@
 import Wrapper from "../layout/wrapper";
-import Insurance from "./home/insurance";
+import Crypto from "./home/crypto";
 
 const MainRoot = () => {
   return (
     <Wrapper>
-      <Insurance />
+      <Crypto />
     </Wrapper>
   );
 };

@@ -2,17 +2,7 @@ import Link from "next/link";
 import { useState } from "react";
 
 const footerLinks = [
-  {
-    title: "Links",
-    links: [
-      { label: "Home", href: "/" },
-      { label: "Pricing", href: "/pages-menu/pricing" },
-      { label: "About us", href: "/pages-menu/about-us-v1" },
-      { label: "Careers", href: "/blog/blog-v1" },
-      { label: "Features", href: "/pages-menu/service-v1" },
-      { label: "Demo the product", href: "/blog/blog-v1" },
-    ],
-  },
+
   {
     title: "Legal",
     links: [
@@ -21,18 +11,7 @@ const footerLinks = [
       { label: "Privacy policy", href: "/pages-menu/faq" },
       { label: "Cookie policy", href: "/pages-menu/faq" },
     ],
-  },
-  {
-    title: "Products",
-    links: [
-      { label: "Take the tour", href: "/pages-menu/faq" },
-      { label: "Live chat", href: "/pages-menu/faq" },
-      { label: "Self-service", href: "/pages-menu/faq" },
-      { label: "Social", href: "/pages-menu/faq" },
-      { label: "Collaboration", href: "/pages-menu/faq" },
-      { label: "Jano Reviews", href: "/pages-menu/faq" },
-    ],
-  },
+  }
 ];
 
 const Footer = () => {
@@ -48,14 +27,14 @@ const Footer = () => {
   };
   return (
     <>
-      <div className="col-lg-4 form-widget mb-30">
+      <div className="col-lg-5 form-widget mb-10">
         <div className="logo">
           <Link href="/">
-            <img src="/images/logo/logo_05.png" alt="" width={95} />
+            <img src="/images/logo/acs-logoo.png" alt="" width={295} height={200} />
           </Link>
         </div>
-        <h6 className="pt-40 pb-10 text-white fw-normal">
-          Join our newsletter
+        {/* <h6 className="pt-40 pb-10 text-white fw-normal">
+          Join our Discord
         </h6>
         <form
           onSubmit={handleSubmit}
@@ -69,12 +48,12 @@ const Footer = () => {
             onChange={handleEmailChange}
           />
           <button type="submit" className="fw-500 position-absolute">
-            Subscribe
+            contact
           </button>
         </form>
         <div className="fs-14 mt-10 text-white opacity-50">
-          We only send interesting and relevant emails.
-        </div>
+          We will contact you for our premium service.
+        </div> */}
       </div>
       {/* End .col */}
       {footerLinks.map((section) => (

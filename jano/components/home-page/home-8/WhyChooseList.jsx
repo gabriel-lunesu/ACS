@@ -1,12 +1,12 @@
 const reasons = [
   {
-    title: "World best technology data and trusted by 10m+ users.",
+    title: "World's best and most advanced algorithm trusted by 200+ users.",
   },
   {
-    title: "We provide best price more than other market",
+    title: "We provide the best price in the market.",
   },
   {
-    title: "We've expert to support you 24 hours in week.",
+    title: "We've expert to support you 24 hours per week.",
   },
 ];
 
@@ -16,7 +16,7 @@ const WhyChooseList = () => {
       <div className="title-style-nine pb-20">
         <div className="sc-title">Why Choose us</div>
         <h2 className="main-title text-white">
-          Why <span>Choose</span> us for your business.
+          Why <span>Choose</span> us for your trading.
         </h2>
       </div>
       {/* /.title-style-nine */}

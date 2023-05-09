@@ -1,27 +1,26 @@
 const BlockFeatureList = () => {
   const featureList = [
     {
-      title: "Global Exchange Rates",
+      title: "Backed by Data starting from 2010.",
     },
     {
-      title: "Make payments with Bank Transfer",
+      title: "Access to the premium discord.",
     },
     {
-      title: "Instant Transaction",
+      title: "Highest win-rate in the market.",
     },
   ];
 
   return (
     <div className="block-style-three ps-xxl-5" data-aos="fade-left">
       <div className="title-style-nine">
-        <div className="sc-title">How it Works</div>
+        <div className="sc-title">Pricing</div>
         <h2 className="main-title text-white">
-          Buy <span>Crypto</span> fast &amp; Instantly.
+          Get Limited Discount for <span>30%</span>!
         </h2>
       </div>
       <p className="text-lg text-white opacity-75 pt-20 pb-30 lg-pb-20">
-        Link your bank account and have your bitcoin in minutes. It’s super easy
-        &amp; fast.
+        Get this limited discount now! And join the winning-side.
       </p>
       <ul className="style-none list-item fs-18 text-white opacity-75">
         {featureList.map((feature, index) => (

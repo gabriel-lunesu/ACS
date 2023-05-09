@@ -77,7 +77,7 @@ const crypto = () => {
         <div className="wrapper-xl m-auto wow fadeInUp">
           <div className="bg mb-200 lg-mb-80">
             <div className="row gx-0">
-              <Block1 />
+              {/* <Block1 /> */}
             </div>
           </div>
         </div>
@@ -86,11 +86,13 @@ const crypto = () => {
         <div className="container">
           <div className="title-style-nine text-center wow fadeInUp mb-60 lg-mb-30">
             <h2 className="main-title text-white">
-              Trusted <span>Cryptocurrency</span> Platform
+              Advanced <span>Cryptocurrency</span> Algorithm
             </h2>
-            <p className="text-white opacity-50 fs-20 pt-15">
-              jano has a variety of features that make it the best place to
-              start trading
+            <p className="text-white opacity-54 fs-20 pt-15">
+              Our algorithm is based on more than 20.000 samples, and with data starting from 2010. 
+            </p>
+            <p className="text-white opacity-50 fs-20 pt-12">
+              We make sure we achieve the <u>highest</u> winrate in the market!
             </p>
           </div>
           {/* /.title-style-nine */}
@@ -192,38 +194,7 @@ const crypto = () => {
         {/* /.wrapper */}
       </div>
 
-      {/*
-        =====================================================
-        Feedback Section Seven
-        =====================================================
-        */}
-      <div
-        className="feedback-section-seven position-relative zn2 mt-200 lg-mt-100"
-        data-aos="fade-up"
-      >
-        <div className="container">
-          <div className="title-style-nine text-center pb-80 lg-pb-50">
-            <div className="sc-title">Feedback</div>
-            <h2 className="main-title text-white">
-              Trsuted by <span>Clients</span>
-            </h2>
-          </div>
-          {/* /.title-style-nine */}
-        </div>
-        {/* End .container */}
-
-        <div className="inner-content">
-          <div className="slider-wrapper">
-            <div className="feedback_slider_seven">
-              <Testimonial />
-            </div>
-            {/* /.feedback_slider_seven */}
-          </div>
-          {/* /.slider-wrapper */}
-        </div>
-        {/* /.inner-content */}
-        <div className="shapes shape-one rounded-circle" />
-      </div>
+    
 
       {/* 
         =============================================
@@ -241,8 +212,7 @@ const crypto = () => {
               </div>
               {/* /.title-style-nine */}
               <p className="text-white opacity-75 fs-18 mb-40 mt-30 pe-xxl-5">
-                Don’t find your answer here? just send us a message for any
-                query.
+                Don’t find your answer here? just send us a message on <u>Discord</u>.
               </p>
               <Link href="/contact" className="btn-seventeen fw-500 tran3s">
                 Contact us
@@ -264,29 +234,7 @@ const crypto = () => {
         Blog Section Four
         =====================================================
         */}
-      <div className="blog-section-four position-relative">
-        <div className="container">
-          <div className="title-style-nine text-center wow fadeInUp mb-40 lg-mb-20">
-            <h2 className="main-title text-white">
-              Inside <span>Story</span>
-            </h2>
-          </div>
-          {/* /.title-style-nine */}
-          <div className="row gx-xxl-5">
-            <Blog />
-          </div>
-          {/* /.row */}
-
-          <div className="text-center mt-65 md-mt-30 wow fadeInUp">
-            <div className="d-inline-block zn2 fs-20 text-white position-relative learn-more-btn">
-              Want learn more?
-              <Link href="/blog/blog-v2" className="fw-500">
-                Go to blog
-              </Link>
-            </div>
-          </div>
-        </div>
-      </div>
+        {/* original code from here on themeforest (inside story section) */}
 
       {/*
 			=====================================================
@@ -308,26 +256,7 @@ const crypto = () => {
 				Footer
 			=====================================================
 			*/}
-      <div className="footer-style-eight theme-basic-footer">
-        <div className="top-footer zn2 position-relative">
-          <img
-            src="/images/shape/shape_107.svg"
-            alt="shape"
-            className="lazy-img shapes shape-one"
-          />
-          <div className="container">
-            <div className="inner-wrapper m-auto">
-              <div className="row">
-                <Footer />
-              </div>
-            </div>
-            {/* /.inner-wrapper */}
-          </div>
-        </div>
-        {/* /.top-footer */}
-        <CopyrightFooter2 />
-        {/* /.bottom-footer */}
-      </div>
+      {/* footer code in themeforest!! */}
     </div>
     // main-page-wrapper
   );

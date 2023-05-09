@@ -32,21 +32,21 @@ const Header = () => {
           <div className="logo order-lg-0">
             <Link href="/" className="d-block">
               <Image
-                src="/images/logo/logo_05.png"
+                src="/images/logo/acs-logoo.png"
                 alt="logo"
-                width={95}
-                height={30}
+                width={185}
+                height={110}
               />
             </Link>
           </div>
           <div className="right-widget d-flex align-items-center ms-auto ms-lg-0 order-lg-3">
-            <Link
+            {/* <Link
               href="/login"
               className="login-btn-two fw-500 d-flex align-items-center me-3 me-xl-5"
             >
               <img src="/images/icon/icon_20.svg" alt="logo" className="me-2" />
               <span>login</span>
-            </Link>
+            </Link> */}
             <Link
               href="/signup"
               className="start-btn-two fw-500 position-relative d-none d-lg-block"
@@ -55,7 +55,7 @@ const Header = () => {
             </Link>
           </div>
           {/* /.right-widget */}
-          <MainMenu />
+          {/* <MainMenu /> */}
         </div>
       </div>
       {/* /.inner-content */}

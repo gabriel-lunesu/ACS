@@ -15,11 +15,15 @@ const Hero = () => {
       />
 
       <h1 className="hero-heading fw-500 text-white mb-45">
-        Trsuted &amp; Secure <span>Crypto</span> Market Exchange.
+        Advanced <span>Crypto</span> Signals
       </h1>
+
+      <h3 className=" fw-300 text-white mb-45">
+        The Most Advanced Crypto Algorithm.
+      </h3>
+
       <p className="text-lg text-white opacity-75 mb-65 lg-mb-50 pe-lg-5">
-        Already have a website? Try our hosting to alive it with
-        industry-leading load times.
+        Superior Signals, for Superior Traders.
       </p>
 
       <div className="d-sm-flex align-items-center">

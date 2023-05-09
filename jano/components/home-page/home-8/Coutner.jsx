@@ -10,23 +10,24 @@ const Counter = () => {
   const counters = [
     {
       id: 1,
-      value: 1,
-      text: "Cumulative trading volume since inception",
+      value: 400,
+      text: "Made on our algorithm.",
       symbol: "$",
-      suffix: "b+",
+      suffix: "k+",
       delay: 0,
     },
     {
       id: 2,
-      value: 10,
-      text: "Million Insurance Coverage",
+      value: 200,
+      text: "Members trading with us.",
+      suffix: "+",
       delay: 0.2,
     },
     {
       id: 3,
-      value: 120,
-      text: "Country & Regions",
-      suffix: "+",
+      value: 30,
+      text: "Data samples collected from the market.",
+      suffix: "k+",
       delay: 0.3,
     },
   ];
@@ -36,7 +37,7 @@ const Counter = () => {
       {counters.map(
         ({ id, value, text, symbol = "", suffix = "", delay = 0 }) => (
           <div
-            className="col-md-4 col-sm-6"
+            className="col-md-5 col-sm-6"
             key={id}
             ref={ref}
             data-aos="fadr-up"

@@ -21,7 +21,7 @@ const Faq = () => {
         "Duis aute irure dolor in reprehenderit in voluptate velit ess dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupid non proident, sunt in culpa qui officia deserunt.",
     },
     {
-      question: "How can I accept credit cards online?",
+      question: "How can I do crypto payment online?",
       answer:
         "Duis aute irure dolor in reprehenderit in voluptate velit ess dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupid non proident, sunt in culpa qui officia deserunt.",
     },

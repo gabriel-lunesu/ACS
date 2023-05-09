@@ -4,18 +4,18 @@ const Block2 = () => {
   const data = [
     {
       icon: "/images/icon/icon_78.png",
-      title: "Best Exchange Rate",
-      description: "Convert data noise intelligent for quis lorem.",
+      title: "Best Accuracy Rate",
+      description: "Our trading algorithm has demonstrated a high level of accuracy in predicting market trends and identifying profitable trading opportunities. ",
     },
     {
       icon: "/images/icon/icon_79.png",
-      title: "Protected by insurance",
-      description: "Convert data noise intelligent for quis lorem.",
+      title: "Protected by Adaptability",
+      description: "Our trading algorithm is designed to adapt to changing market conditions and adjust its strategies accordingly.",
     },
     {
       icon: "/images/icon/icon_81.png",
-      title: "Secure storage",
-      description: "Convert data noise intelligent for quis lorem.",
+      title: "Risk Management",
+      description: "Our trading algorithm incorporates robust risk management strategies to protect investments and minimize downside risk. ",
     },
   ];
 
