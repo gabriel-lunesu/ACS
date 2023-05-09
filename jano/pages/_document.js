@@ -6,11 +6,11 @@ export default function Document() {
       <Head>
         <meta
           name="description"
-          content="Jano - Creative Multipurpose React NextJS Template"
+          content="ACS | Advanced Crypto Signals"
         />
         <meta
           name="keywords"
-          content="agency, bootstrap 5, business, business multipurpose, charity, creative, creative template, crypto, education, hosting, insurance, landing page, portfolio, real estate, responsive, react, nextjs"
+          content="Crypto, Signals, Algorithm, crypto, signals, algorithm, crypto trading, data driven, crypto signals, crypto algorithm, trading, automated trading, algorithmic trading"
         />
 
         <link rel="icon" href="/favicon.ico" />
