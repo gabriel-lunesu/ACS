@@ -5,7 +5,7 @@ const Seo = ({ pageTitle }) => (
     <Head>
       <title>
         {pageTitle &&
-          `${pageTitle} || Advanced Crypto Signals}`}
+          `${pageTitle} || Advanced Crypto Signals`}
       </title>
       <meta name="viewport" content="width=device-width, initial-scale=1" />
     </Head>
