@@ -22,7 +22,7 @@ const crypto = () => {
     <div className="dark-bg-one">
       <ShapeGroup />
 
-      <Seo pageTitle="Crypto" />
+      <Seo pageTitle="ACS" />
 
       {/* <!-- 
         =============================================
