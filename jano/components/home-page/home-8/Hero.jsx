@@ -32,15 +32,15 @@ const Hero = () => {
           role="button"
           className="fancybox video-icon tran3s mb-25 d-flex align-items-center order-sm-last"
         >
-          <span className="icon d-block">
+          {/* <span className="icon d-block">
             <i className="bi bi-play" />
-          </span>
-          <div className="ps-3">
+          </span> */}
+          {/* <div className="ps-3">
             <span className="d-block fs-15 text-uppercase tx1">Watch</span>
             <strong className="fs-18 fw-500 text-white d-block">
               Intro Video
             </strong>
-          </div>
+          </div> */}
         </div>
         {/* End popup video */}
 
