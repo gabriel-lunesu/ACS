@@ -48,7 +48,7 @@ const Header = () => {
               <span>login</span>
             </Link> */}
             <Link
-              href="/signup"
+              href="https://discord.gg/98XSdH6D"
               className="start-btn-two fw-500 position-relative d-none d-lg-block"
             >
               Get Started
