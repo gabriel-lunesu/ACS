@@ -19,7 +19,7 @@ const Hero = () => {
       </h1>
 
       <h3 className=" fw-300 text-white mb-45">
-        The Most Advanced Crypto Algorithm.
+        The Most Advanced Crypto <b>Algorithm</b>.
       </h3>
 
       <p className="text-lg text-white opacity-75 mb-65 lg-mb-50 pe-lg-5">
@@ -53,7 +53,7 @@ const Hero = () => {
       </div>
       <h2 className="fw-500 text-white mt-60 lg-mt-30 mb-5">A+ Rating</h2>
       <p className="fs-20 opacity-50 text-white">
-        Avg rating 4.8 makes us world most best apps.
+        Avg rating 4.8 makes us world's best algorithm.
       </p>
     </>
   );
