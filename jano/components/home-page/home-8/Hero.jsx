@@ -53,7 +53,7 @@ const Hero = () => {
       </div>
       <h2 className="fw-500 text-white mt-60 lg-mt-30 mb-5">A+ Rating</h2>
       <p className="fs-20 opacity-50 text-white">
-        Avg rating 4.8 makes us world's best algorithm.
+        Avg rating 4.8 makes us world&apos;s best algorithm.
       </p>
     </>
   );
