@@ -112,7 +112,7 @@ const crypto = () => {
               <b>Advanced <span>Cryptocurrency</span> Algorithm</b>
             </h3>
             <p className="text-sm text-white opacity-54 fs-20 pt-15">
-              Our algorithm is based on more than 20.000 samples, and with data starting from 2010. 
+              Our algorithm is based on more than 30.000 samples, and with data starting from 2010. 
             </p>
             <p className="text-white opacity-50 fs-20 pt-12">
               We make sure we achieve the <u>highest</u> winrate in the market!
