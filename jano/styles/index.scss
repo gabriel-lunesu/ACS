@@ -3,3 +3,6 @@
 @import "../node_modules/react-modal-video/scss/modal-video.scss";
 @import "~bootstrap/scss/bootstrap";
 @import "public/main.scss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

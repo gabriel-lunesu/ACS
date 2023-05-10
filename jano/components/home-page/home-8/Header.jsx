@@ -30,12 +30,12 @@ const Header = () => {
       <div className="inner-content position-relative">
         <div className="d-flex align-items-center justify-content-between">
           <div className="logo order-lg-0">
-            <Link href="/" className="d-block">
+            <Link href="/" className="d-block 	">
               <Image
-                src="/images/logo/acs-logoo.png"
+                src="/images/logo/logo-acs.png"
                 alt="logo"
                 width={155}
-                height={85}
+                height={125}
               />
             </Link>
           </div>

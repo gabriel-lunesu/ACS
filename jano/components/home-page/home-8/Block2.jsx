@@ -41,7 +41,7 @@ const Block2 = () => {
                 className="lazy-img"
               />
             </div>
-            <h4 className="text-white mb-10 mt-25">{item.title}</h4>
+            <h4 className="text-white mb-10 mt-25"><b>{item.title}</b></h4>
             <p className="text-white opacity-75 mb-25">{item.description}</p>
             <a href="#" className="arrow tran3s">
               <img

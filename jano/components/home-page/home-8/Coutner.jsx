@@ -10,10 +10,10 @@ const Counter = () => {
   const counters = [
     {
       id: 1,
-      value: 400,
+      value: 1,
       text: "Made on our algorithm.",
       symbol: "$",
-      suffix: "k+",
+      suffix: "M+",
       delay: 0,
     },
     {

@@ -25,7 +25,7 @@ const Block3 = () => {
             <div className="icon d-flex align-items-end">
               <img src={data.icon} alt="icon" className="lazy-img" />
             </div>
-            <h4 className="text-white mt-20 mb-10">{data.title}</h4>
+            <h4 className="text-white mt-20 mb-10"><b>{data.title}</b></h4>
             <p className="fs-18">{data.description}</p>
             {index !== 2 && (
               <div className="arrow d-flex align-items-center justify-content-center rounded-circle position-absolute">

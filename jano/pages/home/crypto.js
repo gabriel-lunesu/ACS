@@ -15,6 +15,7 @@ import Blog from "../../components/home-page/home-8/Blog";
 import CallToAction from "../../components/home-page/home-8/CallToAction";
 import CopyrightFooter2 from "../../components/footer/CopyrightFooter2";
 import Footer from "../../components/home-page/home-8/Footer";
+import Stats from "../../components/home-page/home-8/Stats";
 import Image from "next/image";
 
 const crypto = () => {
@@ -68,6 +69,14 @@ const crypto = () => {
         />
       </div>
 
+    
+
+
+
+          {/* /.title-style-nine */}
+
+      
+
       {/* 
         =============================================
         Feature Section Twenty Six
@@ -81,14 +90,18 @@ const crypto = () => {
             </div>
           </div>
         </div>
+
+
+        
+        
         {/* /.wrapper-xl */}
 
         <div className="container">
           <div className="title-style-nine text-center wow fadeInUp mb-60 lg-mb-30">
-            <h2 className="main-title text-white">
-              Advanced <span>Cryptocurrency</span> Algorithm
-            </h2>
-            <p className="text-white opacity-54 fs-20 pt-15">
+            <h3 className="text-lg main-title text-white ">
+              <b>Advanced <span>Cryptocurrency</span> Algorithm</b>
+            </h3>
+            <p className="text-sm text-white opacity-54 fs-20 pt-15">
               Our algorithm is based on more than 20.000 samples, and with data starting from 2010. 
             </p>
             <p className="text-white opacity-50 fs-20 pt-12">
@@ -206,8 +219,8 @@ const crypto = () => {
           <div className="row">
             <div className="col-lg-5" data-aos="fade-right">
               <div className="title-style-nine">
-                <h2 className="main-title text-white">
-                  Any <span>Questions?</span> Find here.
+                <h2 className="text-lg main-title text-white">
+                 <b>Any <span>Questions?</span> Find here.</b> 
                 </h2>
               </div>
               {/* /.title-style-nine */}

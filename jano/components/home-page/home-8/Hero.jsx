@@ -18,11 +18,11 @@ const Hero = () => {
         Advanced <span>Crypto</span> Signals
       </h1>
 
-      <h3 className=" fw-300 text-white mb-45">
+      <h3 className="text-lg fw-400 text-white mb-35">
         The Most Advanced Crypto <b>Algorithm</b>.
       </h3>
 
-      <p className="text-lg text-white opacity-75 mb-65 lg-mb-50 pe-lg-5">
+      <p className="text-base text-white opacity-75 mb-65 lg-mb-50 pe-lg-5">
         Superior Signals, for Superior Traders.
       </p>
 
@@ -51,10 +51,8 @@ const Hero = () => {
           Start Trading
         </Link>
       </div>
-      <h2 className="fw-500 text-white mt-60 lg-mt-30 mb-5">A+ Rating</h2>
-      <p className="fs-20 opacity-50 text-white">
-        Avg rating 4.8 makes us world&apos;s best algorithm.
-      </p>
+  
+
     </>
   );
 };
