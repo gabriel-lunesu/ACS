@@ -207,13 +207,13 @@ const crypto = () => {
         </div>
         {/* /.container */}
 
-        <div className="wrapper mt-110 lg-mt-60">
+        {/* <div className="wrapper mt-110 lg-mt-60">
           <div className="container">
             <div className="row justify-content-center">
               <Coutner />
             </div>
           </div>
-        </div>
+        </div> */}
         {/* /.wrapper */}
       </div>
 
