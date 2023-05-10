@@ -32,9 +32,9 @@ const CallToAction = () => {
         Join our Discord now and start trading &amp; earning money!
       </p>
       <div className="d-sm-flex justify-content-center ">
-      <a href="#" className="btn-eleven fw-500 border7 mt-45">
+      <h4 href="#" className="btn-eleven text-center  content fw-500 border7 mt-45">
          Get Started
-      </a>
+      </h4>
         </div>
     </div>
   );

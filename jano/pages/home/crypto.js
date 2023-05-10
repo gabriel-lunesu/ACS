@@ -69,6 +69,16 @@ const crypto = () => {
         />
       </div>
 
+      <div className="wrapper mt-140 lg-mt-60">
+          <div className="container">
+            <div className="row justify-content-center">
+              <Coutner />
+            </div>
+          </div>
+        </div>
+
+      
+
     
 
 
