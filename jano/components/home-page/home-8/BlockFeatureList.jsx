@@ -26,7 +26,7 @@ const BlockFeatureList = () => {
         </h3>
       </div>
       <p className="text-base text-white opacity-75 pt-20 pb-30 lg-pb-20">
-        This Dicount will expire soon! Join the winning-side.
+        This Discount will expire soon! Join the winning-side.
       </p>
       <ul className="style-none list-item fs-18 text-white opacity-75">
         {featureList.map((feature, index) => (
