@@ -11,7 +11,7 @@ const Counter = () => {
     {
       id: 1,
       value: 1,
-      text: "Made on our algorithm.",
+      text: "Profits made on our algorithm!",
       symbol: "$",
       suffix: "M+",
       delay: 0,

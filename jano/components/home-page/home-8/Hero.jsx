@@ -23,7 +23,8 @@ const Hero = () => {
       </h3>
 
       <p className="text-base text-white opacity-75 mb-65 lg-mb-50 pe-lg-5">
-        Superior Signals, for Superior Traders.
+      Are you ready to take your crypto trading to new heights? Join our vibrant community of successful traders. 
+
       </p>
 
       <div className="d-sm-flex align-items-center">
