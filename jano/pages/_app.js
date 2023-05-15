@@ -8,6 +8,7 @@ import Head from "next/head";
 import '../styles/global.css';
 
 
+
 if (typeof window !== "undefined") {
   require("bootstrap/dist/js/bootstrap");
 }

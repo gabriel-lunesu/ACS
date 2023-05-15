@@ -17,6 +17,7 @@
     "daisyui": "^2.51.6",
     "eslint": "8.31.0",
     "eslint-config-next": "13.2.3",
+    "modal": "^1.2.0",
     "next": "13.2.3",
     "photoswipe": "^5.3.7",
     "postcss-flexbugs-fixes": "^5.0.2",

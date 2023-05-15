@@ -1,7 +1,11 @@
+import { Fragment, useState } from "react";
+import Modal from "../../modal/modal";
+
 const CallToAction = () => {
+  const [showModal, setShowModal] = useState(false);
   const platformButtons = [
     {
-      href: "https://discord.gg/xX5cq86344",
+      href: "https://discord.gg/9xjMfhmSAu",
       className: "ios-button",
       icon: "/images/icon/icon_89.svg",
       text1: "Download on the",
@@ -9,7 +13,7 @@ const CallToAction = () => {
       aos: "fade-right",
     },
     {
-      href: "https://discord.gg/xX5cq86344",
+      href: "https://discord.gg/9xjMfhmSAu",
       className: "windows-button",
       icon: "/images/icon/playstore.svg",
       text1: "Get it on",
@@ -32,9 +36,15 @@ const CallToAction = () => {
         Join our Discord now and start trading &amp; earning money!
       </p>
       <div className="d-sm-flex justify-content-center" style={{marginLeft : '80px'}}>
-      <a href="https://discord.gg/xX5cq86344"  className="btn-eleven text-center content fw-500 border7 mt-45">
+
+    
+      <a href="https://discord.gg/9xjMfhmSAu" className="btn-eleven text-center content fw-500 border7 mt-45" onClick={() => setShowModal(true)}>
          Get Started
       </a>
+     
+
+
+
         </div>
     </div>
   );

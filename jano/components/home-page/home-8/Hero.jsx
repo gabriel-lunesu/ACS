@@ -46,7 +46,7 @@ const Hero = () => {
         {/* End popup video */}
 
         <Link
-          href="https://discord.gg/98XSdH6D"
+          href="https://discord.gg/9xjMfhmSAu"
           className="btn-sixteen fw-500 tran3s mb-25 me-4 order-sm-first"
         >
           Start Trading

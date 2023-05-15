@@ -17,10 +17,16 @@ import CopyrightFooter2 from "../../components/footer/CopyrightFooter2";
 import Footer from "../../components/home-page/home-8/Footer";
 import Stats from "../../components/home-page/home-8/Stats";
 import Image from "next/image";
+import Modal from "../../components/modal/modal";
+import { Fragment, useState } from "react";
+
 
 const crypto = () => {
+  
   return (
+    
     <div className="dark-bg-one">
+      
       <ShapeGroup />
 
       <Seo pageTitle="ACS" />
@@ -31,6 +37,7 @@ const crypto = () => {
         ============================================== 	
         --> */}
       <Header />
+      
 
       {/* 
         =============================================
@@ -68,6 +75,7 @@ const crypto = () => {
           className="lazy-img shapes line-shape"
         />
       </div>
+      
 
       <div className="wrapper mt-140 lg-mt-60">
           <div className="container">
@@ -76,6 +84,11 @@ const crypto = () => {
             </div>
           </div>
         </div>
+        <div className="App h-screen flex flex-col items-center justify-center bg-purple-200">
+     
+      </div>
+      
+
 
       
 
@@ -237,7 +250,7 @@ const crypto = () => {
               <p className="text-white opacity-75 fs-18 mb-40 mt-30 pe-xxl-5">
                 Don’t find your answer here? just send us a message on <u>Discord</u>.
               </p>
-              <Link href="https://discord.gg/98XSdH6D" className="btn-seventeen fw-500 tran3s">
+              <Link href="https://discord.gg/9xjMfhmSAu" className="btn-seventeen fw-500 tran3s">
                 Contact us
               </Link>
             </div>
