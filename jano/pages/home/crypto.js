@@ -21,6 +21,15 @@ import Modal from "../../components/modal/modal";
 import { Fragment, useState } from "react";
 
 
+export const GA_MEASUREMENT_ID = process.env.GA_MEASUREMENT_ID;
+
+export const pageview = () => {
+    window.gtag("config", GA_MEASUREMENT_ID, {
+      page_path: url,
+    });
+  };
+
+
 const crypto = () => {
   
   return (

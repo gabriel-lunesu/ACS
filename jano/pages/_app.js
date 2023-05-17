@@ -9,6 +9,7 @@ import '../styles/global.css';
 
 
 
+
 if (typeof window !== "undefined") {
   require("bootstrap/dist/js/bootstrap");
 }
@@ -22,6 +23,23 @@ export default function App({ Component, pageProps }) {
 
   return (
     <>
+    {/* <!-- Google tag (gtag.js) --> */}
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-J1ZR5RCLCN"></script>
+    <Script
+        src="https://www.googletagmanager.com/gtag/js?id=G-J1ZR5RCLCN"
+        strategy="afterInteractive"
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){window.dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-J1ZR5RCLCN');
+        `}
+      </Script>
+
+    
       {/* <Head> 
 
       <link href="https://cdn.jsdelivr.net/npm/daisyui@2.51.6/dist/full.css" rel="stylesheet" type="text/css" />
