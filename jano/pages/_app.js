@@ -6,6 +6,8 @@ import ScrollToTop from "../components/common/ScrollTop";
 import Script from "next/script";
 import Head from "next/head";
 import '../styles/global.css';
+import { Analytics } from '@vercel/analytics/react';
+
 
 
 
@@ -52,6 +54,7 @@ export default function App({ Component, pageProps }) {
 
     <div className="main-page-wrapper">
       <Component {...pageProps} />
+      <Analytics />
       <ScrollToTop />
     </div>
     </>
