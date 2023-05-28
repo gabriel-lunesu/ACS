@@ -10,10 +10,10 @@ const Counter = () => {
   const counters = [
     {
       id: 1,
-      value: 1,
+      value: 1200000,
       text: "Profits made on our algorithm!",
       symbol: "$",
-      suffix: "M+",
+      suffix: "",
       delay: 0,
     },
     {
@@ -37,14 +37,14 @@ const Counter = () => {
       {counters.map(
         ({ id, value, text, symbol = "", suffix = "", delay = 0 }) => (
           <div
-            className="col-md-5 col-sm-6"
+            className="scale-75 col-md-7 col-sm-6 "
             key={id}
             ref={ref}
             data-aos="fadr-up"
             data-aos-delay={delay}
           >
             <div
-              className={`counter-block-four text-center mt-40 wow fadeInUp ${
+              className={`counter-block-four  text-center mt-40 wow fadeInUp ${
                 inView ? "animated" : ""
               }`}
             >
@@ -58,7 +58,7 @@ const Counter = () => {
                 />
                 {suffix}
               </div>
-              <p className="fs-18 m0">{text}</p>
+              <p className="fs-18  m0">{text}</p>
             </div>
             {/* /.counter-block-four */}
           </div>
