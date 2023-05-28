@@ -19,6 +19,8 @@ import Stats from "../../components/home-page/home-8/Stats";
 import Image from "next/image";
 import Modal from "../../components/modal/modal";
 import { Fragment, useState } from "react";
+import BlockFeatureList1 from "../../components/home-page/home-8/BlockFeatureList1";
+
 
 
 export const GA_MEASUREMENT_ID = process.env.GA_MEASUREMENT_ID;
@@ -160,11 +162,11 @@ const crypto = () => {
       <div className="fancy-feature-twentySeven position-relative zn2 mt-250 lg-mt-120">
         <div className="container">
           <div className="row align-items-center">
-            <div className="col-lg-6 ms-auto order-lg-last">
-              <BlockFeatureList />
+            <div className="">
+              <BlockFeatureList1 />
               {/* /.block-style-three */}
             </div>
-            <div
+            {/* <div
               className="col-lg-6 col-md-8 m-auto order-lg-first"
               data-aos="fade-right"
             >
@@ -178,20 +180,12 @@ const crypto = () => {
                   className="lazy-img main-img m-auto"
                 />
               </div>
-              {/* /.illustration-holder */}
-            </div>
+            </div> */}
           </div>
         </div>
         {/* /.container */}
 
-        <div className="container">
-          <div className="wrapper mt-130 lg-mt-100" data-aos="fade-up">
-            <div className="row">
-              <Block3 />
-            </div>
-          </div>
-          {/* /.wrapper */}
-        </div>
+       
         <div className="r-shape-one shapes" />
       </div>
 
@@ -225,6 +219,14 @@ const crypto = () => {
               </div>
               {/* /.illustration-holder */}
             </div>
+            <div className="container">
+          <div className="wrapper mt-130 lg-mt-100" data-aos="fade-up">
+            <div className="row">
+              <Block3 />
+            </div>
+          </div>
+          {/* /.wrapper */}
+        </div>
           </div>
         </div>
         {/* /.container */}
@@ -259,7 +261,7 @@ const crypto = () => {
               <p className="text-white opacity-75 fs-18 mb-40 mt-30 pe-xxl-5">
                 Don’t find your answer here? just send us a message on <u>Discord</u>.
               </p>
-              <Link href="https://discord.gg/9xjMfhmSAu" className="btn-seventeen fw-500 tran3s">
+              <Link href="https://discord.gg/5CCWuv4g83" className="btn-seventeen fw-500 tran3s">
                 Contact us
               </Link>
             </div>

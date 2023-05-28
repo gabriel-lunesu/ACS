@@ -5,7 +5,7 @@ const CallToAction = () => {
   const [showModal, setShowModal] = useState(false);
   const platformButtons = [
     {
-      href: "https://discord.gg/9xjMfhmSAu",
+      href: "https://discord.gg/5CCWuv4g83",
       className: "ios-button",
       icon: "/images/icon/icon_89.svg",
       text1: "Download on the",
@@ -13,7 +13,7 @@ const CallToAction = () => {
       aos: "fade-right",
     },
     {
-      href: "https://discord.gg/9xjMfhmSAu",
+      href: "https://discord.gg/5CCWuv4g83",
       className: "windows-button",
       icon: "/images/icon/playstore.svg",
       text1: "Get it on",
@@ -38,7 +38,7 @@ const CallToAction = () => {
       <div className="d-sm-flex justify-content-center" style={{marginLeft : '80px'}}>
 
     
-      <a href="https://discord.gg/9xjMfhmSAu" className="btn-eleven text-center content fw-500 border7 mt-45" onClick={() => setShowModal(true)}>
+      <a href="https://discord.gg/5CCWuv4g83" className="btn-sixteen text-center content fw-500 border7 mt-45" onClick={() => setShowModal(true)}>
          Get Started
       </a>
      
