@@ -23,13 +23,7 @@ const Counter = () => {
       suffix: "+",
       delay: 0.2,
     },
-    {
-      id: 3,
-      value: 30,
-      text: "Data samples collected from the market.",
-      suffix: "k+",
-      delay: 0.3,
-    },
+    
   ];
 
   return (
@@ -58,7 +52,7 @@ const Counter = () => {
                 />
                 {suffix}
               </div>
-              <p className="fs-18  m0">{text}</p>
+              <p className="fs-18  m0"><b>{text}</b></p>
             </div>
             {/* /.counter-block-four */}
           </div>
