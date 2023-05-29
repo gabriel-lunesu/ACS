@@ -116,7 +116,7 @@ const crypto = () => {
         Feature Section Twenty Six
         ============================================== 
         */}
-      <div className="fancy-feature-twentySix position-relative zn2 pt-150 lg-pt-80">
+      <div className="fancy-feature-twentySix position-relative zn2 pt-110 lg-pt-80">
         <div className="wrapper-xl m-auto wow fadeInUp">
           <div className="bg mb-200 lg-mb-80">
             <div className="row gx-0">
