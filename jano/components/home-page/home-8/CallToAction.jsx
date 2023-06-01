@@ -34,7 +34,7 @@ const CallToAction = () => {
         data-aos="fade-up"
         
       >
-        <u>Join our Discord now and start trading &amp; earning money!</u>
+        <u><b>Click here</b> to join our Discord now and start trading &amp; earning money!</u>
       </a>
       <div className="d-sm-flex justify-content-center md:ml-auto " style={{marginLeft : '30%'}}>
 
