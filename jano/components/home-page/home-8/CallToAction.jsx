@@ -5,7 +5,7 @@ const CallToAction = () => {
   const [showModal, setShowModal] = useState(false);
   const platformButtons = [
     {
-      href: "https://discord.gg/5CCWuv4g83",
+      href: "https://wa.me/447456435236?text=Helllo%2C%20i%20would%20like%20to%20know%20more%20about%20ACS.",
       className: "ios-button",
       icon: "/images/icon/icon_89.svg",
       text1: "Download on the",
@@ -13,7 +13,7 @@ const CallToAction = () => {
       aos: "fade-right",
     },
     {
-      href: "https://discord.gg/5CCWuv4g83",
+      href: "https://wa.me/447456435236?text=Helllo%2C%20i%20would%20like%20to%20know%20more%20about%20ACS.",
       className: "windows-button",
       icon: "/images/icon/playstore.svg",
       text1: "Get it on",
@@ -29,7 +29,7 @@ const CallToAction = () => {
         </h2>
       </div>
       {/* /.title-style-nine */}
-      <a href="https://discord.gg/5CCWuv4g83"
+      <a href="https://wa.me/447456435236?text=Helllo%2C%20i%20would%20like%20to%20know%20more%20about%20ACS."
         className="text-white opacity-75 text-center text-lg mt-40 mb-40 lg-mt-20"
         data-aos="fade-up"
         

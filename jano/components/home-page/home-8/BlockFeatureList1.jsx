@@ -84,7 +84,7 @@ const BlockFeatureList = () => {
                       <div className="trial-text fs-17 opacity-75 mb-30">
                         {plan.trial}
                       </div>
-                      <a href="https://discord.gg/5CCWuv4g83" className="btn-sixteen fw-500 tran3s">
+                      <a href="https://wa.me/447456435236?text=Helllo%2C%20i%20would%20like%20to%20know%20more%20about%20ACS." className="btn-sixteen fw-500 tran3s">
                         Sign up
                       </a>
                     </div>

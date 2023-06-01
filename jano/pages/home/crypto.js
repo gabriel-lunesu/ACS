@@ -261,7 +261,7 @@ const crypto = () => {
               <p className="text-white opacity-75 fs-18 mb-40 mt-30 pe-xxl-5">
                 Don’t find your answer here? just send us a message on <u>Discord</u>.
               </p>
-              <Link href="https://discord.gg/5CCWuv4g83" className="btn-seventeen fw-500 tran3s">
+              <Link href="https://wa.me/447456435236?text=Helllo%2C%20i%20would%20like%20to%20know%20more%20about%20ACS." className="btn-seventeen fw-500 tran3s">
                 Contact us
               </Link>
             </div>
